@@ -1,0 +1,64 @@
+body {
+    background: #E74646;
+    text-align: center;
+}
+.dau {
+    color: #FFF3E2;
+    font-family: 'Lucida Console', monospace;
+    margin: 20px 0 20px 0;
+}
+.dau .ten {
+    font-size: 40px;   
+}
+.dau .tieu{
+    font-size: 14px;
+}
+.chon {
+    max-width: 300px;
+    padding: 10px 0 10px 0;
+    margin: 40px auto;
+    border: 3px solid #FFE5CA;
+    border-radius: 20px;
+    background: #FFF3E2;
+}
+.button {
+    padding: 10px;
+    margin: 10px;
+    width: 250px;
+    background: #E74646;
+    border: 1px solid #FFE5CA;
+    border-radius: 10px;
+    color: #FFF3E2;
+    font-size: 16px;
+}
+.hdsd {
+    padding: 0 0 10px 0;
+    margin: 20px auto;
+}
+.button-hdsd{
+    padding: 8px;
+    margin: 10px;
+    width: 200px;
+    border: 1px solid #FFE5CA;
+    background: #FFF3E2;
+    border-radius: 10px;
+    color: #E74646;
+    font-size: 13px;
+}
+.cuoi{
+    color: #FFF3E2;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cuoi h1{
+    font-size: 14px;
+}
+.cuoi h2{
+    font-size: 11px;
+}
+.cuoi h3{
+    font-size: 8px;
+}
+.cuoi .contact{
+    font-size: 12px;
+    color: #FFF3E2;
+}
