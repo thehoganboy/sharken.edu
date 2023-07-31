@@ -1,0 +1,31 @@
+body {
+    background: #E74646;
+    text-align: center;
+}
+.dau {
+    color: hsl(35, 100%, 94%);
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:10px auto;
+}
+.tai {
+    margin: 30px auto;
+    padding: 10px;
+}
+.cuoi{
+    color: #FFF3E2;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cuoi h1{
+    font-size: 14px;
+}
+.cuoi h2{
+    font-size: 11px;
+}
+.cuoi h3{
+    font-size: 8px;
+}
+.cuoi .contact{
+    font-size: 12px;
+    color: #FFF3E2;
+}

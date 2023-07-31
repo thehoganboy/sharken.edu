@@ -1,0 +1,137 @@
+/* Import Google font - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  display: flex;
+  padding: 0 10px;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: #E74646;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+  width: 380px;
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.08);
+}
+.container h2{
+  font-size: 25px;
+  font-weight: 500;
+  padding: 16px 25px;
+  border-bottom: 1px solid #FA9884;
+  color: #E74646;
+}
+.container .content{
+  margin: 25px 20px 35px;
+}
+.content .word{
+  user-select: none;
+  font-size: 33px;
+  font-weight: 500;
+  text-align: center;
+  letter-spacing: 24px;
+  margin-right: -24px;
+  word-break: break-all;
+  text-transform: uppercase;
+  color: #FA9884;
+}
+
+.content .details{
+  margin: 25px 0 20px;
+}
+.details p{
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+.details span{
+  color: #E74646;
+}
+.details p b{
+  font-weight: 500;
+  color: #E74646;
+  font-size: 20px;
+}
+.content input{
+  width: 100%;
+  height: 60px;
+  outline: none;
+  padding: 0 16px;
+  font-size: 18px;
+  border-radius: 10px;
+  border: 1px solid #FA9884;
+}
+.content input:focus{
+  box-shadow: 0px 2px 4px rgba(0,0,0,0.08);
+}
+.content input::placeholder{
+  color: #E74646;
+}
+.content input:focus::placeholder{
+  color: #FA9884;
+}
+.content .buttons{
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+.buttons button{
+  border: none;
+  outline: none;
+  color: #fff;
+  cursor: pointer;
+  padding: 15px 0;
+  font-size: 17px;
+  border-radius: 10px;
+  width: calc(100% / 2 - 8px);
+  transition: all 0.3s ease;
+}
+.buttons button:active{
+  transform: scale(0.9);
+}
+.buttons .refresh-word{
+  background: #FA9884;
+}
+.buttons .refresh-word:hover{
+  background: #FA9884;
+}
+.buttons .check-word{
+  background: #E74646;
+}
+.buttons .check-word:hover{
+  background: #E74646;
+}
+
+@media screen and (max-width: 470px) {
+  .container h2{
+    font-size: 22px;
+    padding: 13px 20px;
+  }
+  .content .word{
+    font-size: 30px;
+    letter-spacing: 20px;
+    margin-right: -20px;
+  }
+  .container .content{
+    margin: 20px 20px 30px;
+  }
+  .details p{
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+  .content input{
+    height: 55px;
+    font-size: 17px;
+  }
+  .buttons button{
+    padding: 14px 0;
+    font-size: 16px;
+    width: calc(100% / 2 - 7px);
+  }
+}

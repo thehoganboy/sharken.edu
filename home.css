@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    background: #E74646;
+    text-align: center;
+}
+.dau {
+    color: #ffffff;
+    font-family: 'Lucida Console', monospace;
+    margin: 20px 0 0 0;
+}
+.dau .ten {
+    font-size: 40px;   
+}
+.dau .tieu{
+    font-size: 14px;
+}
+.chon {
+    max-width: 285px;
+    padding: 10px 0 10px 20px;
+    margin: 20px auto;
+    border-radius: 20px;
+    background: #ffffff;
+    color: #E74646;
+    font-size: 16px;
+    text-align: left;
+}
+.button {
+    padding: 10px;
+    margin: 5px;
+    width: 230px;
+    background: #E74646;
+    border-radius: 15px;
+    border: 1px solid #E74646;
+    color: #FFF3E2;
+    font-size: 16px;
+    
+}
+.hdsd {
+    padding: 0 0 10px 0;
+    margin: 10px auto;
+}
+.button-hdsd{
+    padding: 8px;
+    margin: 5px;
+    width: 180px;
+    border: 1px solid #FA9884;
+    background: #ffffff;
+    border-radius: 10px;
+    color: #E74646;
+    font-size: 13px;
+}
+.cuoi{
+    color: #FFFfff;
+    background: #FA9884;
+    margin: 0;
+    padding: 5px;
+}
+.cuoi h1{
+    font-size: 14px;
+}
+.cuoi h2{
+    font-size: 11px;
+}
+.cuoi h3{
+    font-size: 8px;
+}
+.cuoi .contact{
+    font-size: 12px;
+    color: #FFF3E2;
+}
